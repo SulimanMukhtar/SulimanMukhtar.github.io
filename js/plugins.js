@@ -1,0 +1,9 @@
+$(document).ready(function(){
+   $(".carousel").carousel(
+   {
+    interval:4030  
+   });
+   $(".cog-check").click(function(){
+      $(".color-Option").toggle();
+   });
+});
